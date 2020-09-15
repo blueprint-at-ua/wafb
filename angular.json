@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
@@ -123,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "wafb"
+  "defaultProject": "wafb",
+  "cli": {
+    "analytics": "3c36fc22-5a64-4c7b-9c4e-c8322c9ab823"
+  }
 }
