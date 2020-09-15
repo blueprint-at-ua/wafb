@@ -13,6 +13,7 @@
       matInput
       class="login-input"
       placeholder="Password"
+      type="password"
       [(ngModel)]="password">
   </mat-form-field>
   <button
@@ -23,6 +24,7 @@
     [disabled]="!(email && password)">
     Log In
   </button>
+  <p>New? <a href="#">Sign up!</a></p>
 </div>
 
 
