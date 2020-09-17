@@ -1,0 +1,44 @@
+<div class="holder">
+  <h1>Volunteer with WAFB today!</h1>
+  <mat-form-field class="third-width">
+    <mat-label>Full Name</mat-label>
+    <input
+      matInput
+      placeholder="John Smith"
+      [(ngModel)]="name">
+  </mat-form-field>
+  <mat-form-field class="third-width">
+    <mat-label>Email</mat-label>
+    <input
+      matInput
+      placeholder="Ex. john@ex.com"
+      [(ngModel)]="email">
+  </mat-form-field>
+  <mat-form-field class="third-width">
+    <mat-label>Password</mat-label>
+    <input
+      matInput
+      class="login-input"
+      placeholder="Password"
+      type="password"
+      [(ngModel)]="password">
+  </mat-form-field>
+  <mat-form-field class="third-width">
+    <mat-label>Confirm Password</mat-label>
+    <input
+      matInput
+      class="login-input"
+      placeholder="Confirm Password"
+      type="password"
+      [(ngModel)]="cfPassword">
+  </mat-form-field>
+  <button
+    mat-button
+    class="get-started-btn"
+    [ngStyle]="{'background-color': !(name && email && password && cfPassword) ? 'rgba(204, 51, 0, 0.4)' : 'rgba(204, 51, 0, 1.0)',
+                'color': !(name && email && password && cfPassword) ? 'rgba(240, 248, 255, 0.4)' : 'rgba(240, 248, 255, 1.0)'}"
+    [disabled]="!(name && email && password && cfPassword)"
+    (click)="onFormSubmit()">
+    Get Started!
+  </button>
+</div>

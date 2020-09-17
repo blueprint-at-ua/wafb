@@ -5,15 +5,17 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatInputModule } from '@angular/material/input';
-import { LoginSignupComponent } from './login-signup/login-signup.component';
+import { LoginComponent } from './login/login.component';
 import { FormsModule } from '@angular/forms';
-import {MatIconModule} from "@angular/material/icon";
-import {MatButtonModule} from "@angular/material/button";
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
+import { SignupComponent } from './signup/signup.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginSignupComponent
+    LoginComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
