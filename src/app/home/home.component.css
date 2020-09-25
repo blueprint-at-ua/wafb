@@ -1,11 +1,13 @@
-.holder { /* center page content */
+.holder {
+  /* center page content */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.wafb-logo { /* push logo down, center */
+.wafb-logo {
+  /* push logo down, center */
   margin-top: 45px;
   display: flex;
   justify-content: center;
@@ -18,16 +20,16 @@
   height: 50px;
   margin-top: 15px;
   margin-bottom: 12px;
-  background-color: #CC3300;
+  background-color: #cc3300;
   color: aliceblue;
   font-size: 1.35em;
-  font-family: Roboto, "Helvetica Neue", sans-serif; /* font used for matInput */
+  font-family: Roboto, 'Helvetica Neue', sans-serif; /* font used for matInput */
   font-weight: normal;
 }
 
 h2 {
   font-size: 2.5em;
-  font-family: Roboto, "Helvetica Neue", sans-serif; /* font used for matInput */
+  font-family: Roboto, 'Helvetica Neue', sans-serif; /* font used for matInput */
   font-weight: bold;
   margin-top: 25px;
   margin-bottom: 50px;

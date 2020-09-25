@@ -1,11 +1,13 @@
-.holder { /* center page content */
+.holder {
+  /* center page content */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.wafb-logo { /* push logo down, center */
+.wafb-logo {
+  /* push logo down, center */
   margin-top: 85px;
   display: flex;
   justify-content: center;
@@ -13,12 +15,14 @@
   flex-direction: column;
 }
 
-::ng-deep .mat-focused .mat-form-field-label { /* change the color of the input label */
+::ng-deep .mat-focused .mat-form-field-label {
+  /* change the color of the input label */
   color: #949494 !important;
 }
 
-::ng-deep.mat-form-field-ripple { /* change color of the input underline when focused */
-  background-color: #CC3300 !important;;
+::ng-deep.mat-form-field-ripple {
+  /* change color of the input underline when focused */
+  background-color: #cc3300 !important;
 }
 
 .login-button {
@@ -26,10 +30,10 @@
   height: 50px;
   margin-top: 25px;
   margin-bottom: 12px;
-  background-color: #CC3300;
+  background-color: #cc3300;
   color: aliceblue;
   font-size: 1.35em;
-  font-family: Roboto, "Helvetica Neue", sans-serif; /* font used for matInput */
+  font-family: Roboto, 'Helvetica Neue', sans-serif; /* font used for matInput */
   font-weight: normal;
 }
 
