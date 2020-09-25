@@ -1,11 +1,13 @@
 <div class="holder">
-  <img src="assets/images/wafb-logo.png" class="wafb-logo">
+  <img src="assets/images/wafb-logo.png" class="wafb-logo" />
   <mat-form-field class="half-width">
     <mat-label>Email</mat-label>
     <input
       matInput
+      type="email"
       placeholder="Ex. john@ex.com"
-      [(ngModel)]="email">
+      [(ngModel)]="email"
+    />
   </mat-form-field>
   <mat-form-field class="half-width">
     <mat-label>Password</mat-label>
@@ -14,18 +16,23 @@
       class="login-input"
       placeholder="Password"
       type="password"
-      [(ngModel)]="password">
+      [(ngModel)]="password"
+    />
   </mat-form-field>
   <button
     mat-button
     class="login-button"
-    [ngStyle]="{'background-color': !(email && password) ? 'rgba(204, 51, 0, 0.4)' : 'rgba(204, 51, 0, 1.0)',
-                'color': !(email && password) ? 'rgba(240, 248, 255, 0.4)' : 'rgba(240, 248, 255, 1.0)'}"
-    [disabled]="!(email && password)">
+    [ngStyle]="{
+      'background-color': !(email && password)
+        ? 'rgba(204, 51, 0, 0.4)'
+        : 'rgba(204, 51, 0, 1.0)',
+      color: !(email && password)
+        ? 'rgba(240, 248, 255, 0.4)'
+        : 'rgba(240, 248, 255, 1.0)'
+    }"
+    [disabled]="!(email && password)"
+  >
     Log In
   </button>
   <p>New? <a href="#">Sign up!</a></p>
 </div>
-
-
-
