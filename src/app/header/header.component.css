@@ -1,0 +1,7 @@
+nav {
+  box-shadow: 0 5px 5px -2px rgba(0,0,0,.5);
+}
+
+.open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+  background-color: #CC3300;
+}
