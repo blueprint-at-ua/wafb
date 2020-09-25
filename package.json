@@ -12,7 +12,8 @@
     "ci": "npm-run-all prettier-staged --parallel lint test-headless",
     "postinstall": "ngcc",
     "prettier-staged": "pretty-quick --staged",
-    "prettier-all": "prettier --write ."
+    "prettier-all": "prettier --write .",
+    "prettier-check": "prettier --check ."
   },
   "private": true,
   "dependencies": {
