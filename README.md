@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.
 
+## Package Management
+
+This project and its pre-commit hook relies in Yarn for package management. It's recommended to install the latest version of Yarn to run this project locally. [You can learn how to do so here.](https://yarnpkg.com/getting-started/install)
+
+**Important**: Do **not** install Yarn Berry. It will not work with this project.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
