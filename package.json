@@ -61,7 +61,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "echo \"This is working!\"",
+      "pre-commit": "yarn ci",
       "post-commit": "run-if-changed",
       "post-checkout": "run-if-changed",
       "post-merge": "run-if-changed",
